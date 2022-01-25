@@ -1,0 +1,9 @@
+<?xml version="1.0"?>  
+<ERP>  
+    <Login>
+	    <chrome>C:\\work_2\\chromedriver.exe</chrome>
+        <url>http://projects.qedgetech.com/webapp/login.php</url>  
+        <login>admin</login>  
+        <password>master</password> 
+    </Login>
+</ERP>

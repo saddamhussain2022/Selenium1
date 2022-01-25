@@ -1,0 +1,11 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ERP Stock Accounting Project" parallel="methods" thread-count="1" >
+  <listeners>
+    <listener class-name="selenium_task.ListenerTest"/>
+  </listeners>
+  <test name="Stock Items Module">
+    <classes>
+      <class name="testNGAutomation.HomePageTNG"/>
+    </classes>
+  </test>
+</suite>
